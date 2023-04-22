@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+}
+                                     /* Navigation Pane Section*/
+                                      
+.header1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.header-left, .header-right{
+    display: flex;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    border: 1px solid black; 
+    height: 60px;
+    margin-top: 5px;
+    padding-top: 3px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(32, 32, 32)(46, 17, 207);
+    border-radius: 9px;
+    width: 100%;
+    height: 44px;
+    margin-top: 13px;
+}
+
+.header-right>ul{
+    width: auto;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(32, 32, 32);
+    border-color: black rgb(255, 255, 255) rgb(0, 0, 0) rgb(255, 255, 255);
+    margin: 10px;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right>ul>li{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(32, 32, 32);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:link{                             /*This is used to remove the underlines in Hyperlinks*/
+    text-decoration: none;
+    padding: 13.5px;
+}
+
+li a.active {
+    background-color: #6667ce;
+    color: rgb(245, 245, 245);
+}
+
+li a:hover{
+    background-color: rgb(29, 194, 56);
+    color: white;
+}
+
+                                      /*Logo Section*/
+.logo{
+    width: 280px;
+    height: auto;
+}
+
+.logo:hover{
+    box-shadow: 0 0 2px 1px red;
+}
+
+                                      /* Body Section*/
+
+h1{ 
+    text-align: center;
+}
+
+.image1, .image2{
+    width: 350px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.header2, .header3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.h2-left, .h3-left{
+    display: flex;
+    border: 3px solid black;
+    margin: 10px;
+    height: 200px;
+}
+
+.h2-right, .h3-right{
+    display: block;
+    border: 3px solid rgb(255, 255, 255);
+}
+ 
+p{
+    margin-left: 100px;
+}
+
+.hh1{
+    margin-left: 55px;
+}
+
+.h2-right>h1{
+    align-items: center;
+}
+
